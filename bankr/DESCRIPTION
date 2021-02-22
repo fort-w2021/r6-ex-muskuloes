@@ -1,0 +1,24 @@
+Package: bankr
+Title: Implements Account classes
+Version: 0.0.1
+Authors@R: 
+    person(given = "Victor",
+           family = "Tuekam",
+           role = c("aut", "cre"),
+           email = "vic.tuekam@gmail.com")
+Description: Implements Account classes for deposit and withdrawal of money.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Collate: 
+    'Account.R'
+    'GiroAccount.R'
+    'SafeAccount.R'
+Imports: 
+    checkmate,
+    R6
